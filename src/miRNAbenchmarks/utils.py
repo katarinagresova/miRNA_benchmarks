@@ -15,8 +15,20 @@ TOOLS = {
 }
 
 DATASETS_CONFIG = {
+    "Helwak_2013": {
+        "path": "/home/jovyan/miRNA_benchmarks/data/Helwak_2013/",
+        "ratios": [1, 10, 100],
+        "sRNA_col": "noncodingRNA",
+        "gene_col": "gene"
+    },
     "Hejret_2023": {
         "path": "/home/jovyan/miRNA_benchmarks/data/Hejret_2023/",
+        "ratios": [1, 10, 100],
+        "sRNA_col": "noncodingRNA",
+        "gene_col": "gene"
+    },
+    "Klimentova_2022": {
+        "path": "/home/jovyan/miRNA_benchmarks/data/Klimentova_2022/",
         "ratios": [1, 10, 100],
         "sRNA_col": "noncodingRNA",
         "gene_col": "gene"
